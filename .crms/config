@@ -1,0 +1,16 @@
+git:
+  remote: git@github.com:skatld123/model_test.git
+dvc:
+  remote: gs://cr-model/model_test
+platform:
+  architecture: x86_64
+  os: linux
+  version: ''
+  device: cpu
+model:
+  name: model_test
+  tag: ''
+#labels : 
+#  label_key1: lavel_value1
+#  label_key2: lavel_value2
+#  resolution: 640x480(sample)
